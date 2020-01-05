@@ -1,7 +1,7 @@
 <!--
  * @Author: whc
  * @Date: 2019-11-07 16:39:05
- * @LastEditTime : 2020-01-05 15:42:32
+ * @LastEditTime : 2020-01-05 15:53:35
  -->
 # whc_wechat_image_edit
 
@@ -11,9 +11,11 @@
 主要功能：给微信头像进行编辑添加节日标签, 节日海报的制作生成
 
 在线微信小程序体验：
+
 <img src = "./screenshot/app_code.jpg" width = "100"/>
 
 微信公众号体验：
+
 <img src = "./screenshot/gongzong_code.jpg" width = "100"/>
 
 ## App Architecture
