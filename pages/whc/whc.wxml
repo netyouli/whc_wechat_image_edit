@@ -1,0 +1,2 @@
+<!--pages/whc/whc.wxml-->
+<web-view src="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNzcwODE2MA==#wechat_redirec"></web-view>

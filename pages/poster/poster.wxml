@@ -1,0 +1,25 @@
+<!--pages/poster/poster.wxml-->
+<view class="posterview">
+  <canvas class="posterview-canvas" canvas-id="festivalCanvas"></canvas>
+  <view class="posterview-imageview">
+    <image class="posterview-image" src="{{posterSrc}}" mode="aspectFit"></image>
+  </view>
+  <view class="posterview-bottomview">
+    <text>保存至相册即可晒朋友圈秀海报</text>
+    <view class="posterview-bottomview-button">
+      <view class="posterview-bottomview-button-item" bindtap="clickChangeBackImage">
+        <view class="posterview-bottomview-button-item-image-view">
+          <image class="posterview-bottomview-button-item-image" src="../images/ai-img.png" mode="aspectFit" ></image>
+        </view>
+        <text class="posterview-bottomview-button-item-text">换一换背景</text>
+      </view>
+      <view style="width: 30px;"></view>
+      <view class="posterview-bottomview-button-item" bindtap="clickSavePhoto">
+        <view class="posterview-bottomview-button-item-image-view">
+          <image class="posterview-bottomview-button-item-image" src="../images/baocun-2.png" mode="aspectFit"></image>
+        </view>
+        <text class="posterview-bottomview-button-item-text">保存到相册</text>
+      </view>
+    </view>
+  </view>
+</view>

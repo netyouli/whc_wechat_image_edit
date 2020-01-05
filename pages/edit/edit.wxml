@@ -1,0 +1,19 @@
+<!--pages/edit/edit.wxml-->
+<view class="editview">
+  <canvas class="editview-canvas" style="width:{{imageSize.w}}px;height:{{imageSize.h}}px;top:{{-imageSize.h * 2}}px;" canvas-id="festivalCanvas"></canvas>
+  <view class="editview-top"></view>
+  <view class="editview-mid">
+    <view class="editview-left">
+    </view>
+    <view class="editview-mid-view">
+      <view class="editview-image-view">
+        <image class="editview-image" catchtouchstart="touchStartImage" catchtouchmove="touchMoveImage" catchtouchend="touchEndImage" style="width:{{imageWidth}}px; height:{{imageHeight}}px; top:{{imageTop}}px;left:{{imageLeft}}px;" src="{{imageurl}}"></image>
+      </view>
+    </view>
+    <view class="editview-right">
+    </view>
+  </view>
+  <view class="editview-bottom">
+  </view>
+  <button class="clipButton" bindtap="clickClip">剪裁</button>
+</view>

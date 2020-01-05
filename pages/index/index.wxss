@@ -1,0 +1,245 @@
+/**index.wxss**/
+
+.userinfo {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+.userinfo-canvas {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background: white;
+  visibility:hidden;
+  top: -1000px;
+}
+
+.userinfo-topview {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userinfo-imageview {
+  /* overflow: hidden; */
+  /* position: fixed; */
+}
+
+.userinfo-festivalview {
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border:1px dashed rgb(153, 51, 90); */
+  /* background-image: linear-gradient(to right, rgb(153, 51, 90) 0%, rgb(153, 51, 90) 50%, transparent 50%);
+  background-size: 20px 1px; */
+  /* background-repeat: repeat-x; */
+}
+
+.userinfo-festivalview-topline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgb(153, 51, 90) 0%, rgb(153, 51, 90) 50%, transparent 50%);
+  background-size: 30px 2px;
+  background-repeat: repeat-x;
+}
+
+.userinfo-festivalview-bottomline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgb(153, 51, 90) 0%, rgb(153, 51, 90) 50%, transparent 50%);
+  background-size: 30px 2px;
+  background-repeat: repeat-x;
+}
+
+.userinfo-festivalview-leftline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  background-image: linear-gradient(to bottom, rgb(153, 51, 90) 0%, rgb(153, 51, 90) 50%, transparent 50%);
+  background-size: 2px 30px;
+  background-repeat: repeat-y;
+}
+
+.userinfo-festivalview-rightline {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 2px;
+  background-image: linear-gradient(to bottom, rgb(153, 51, 90) 0%, rgb(153, 51, 90) 50%, transparent 50%);
+  background-size: 2px 30px;
+  background-repeat: repeat-y;
+}
+
+
+
+.userinfo-festivalimage {
+  width: 100%;
+  height: 100%;
+}
+
+.userinfo-festivalrotate {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: -12.5px;
+  right: -12.5px;
+}
+
+.userinfo-avatar {
+  /* width: 200px;
+  height: 200px; */
+  width: 320px;
+  height: 320px;
+}
+
+.userinfo-buttonview {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+  height: 40px;
+}
+
+.userinfo-jieributton {
+  background-color: rgb(153, 51, 90);
+  color: white;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userinfo-makebutton {
+  font-size: 14px;
+  background-color: rgb(153, 51, 90);
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userinfo-haibaobutton {
+  font-size: 14px;
+  background-color: rgb(153, 51, 90);
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.userinfo-bottomview {
+  /* flex-grow: 1; */
+  height: calc(100% - 370px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.scrollview {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.scrollview-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 320px;
+}
+
+.scrollview-item {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.opensetting {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #000;
+  opacity: 0.7;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+
+.opensetting-dialog {
+  position: fixed;
+  width: 270px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 9999;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 40%;
+}
+
+.opensetting-title {
+  color: #000;
+  text-align: center;
+}
+
+.opensetting-button {
+  margin-top: 20px;
+  background: rgb(153, 51, 90);
+  margin-left: 10px;
+  margin-right: 10px;
+  color:white;
+}
+
+.opensetting-cancel {
+  margin-top: 20px;
+  background: #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+}

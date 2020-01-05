@@ -1,0 +1,83 @@
+/* pages/poster/poster.wxss */
+.posterview {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.posterview-canvas {
+  position: absolute;
+  width: 1000px;
+  height: 1506px;
+  background: white;
+  visibility:hidden;
+  top: -2000px;
+}
+
+.posterview-imageview {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 150px;
+  /* background: rebeccapurple; */
+}
+
+.posterview-image {
+  width: 80%;
+  height: 100%;
+}
+
+.posterview-bottomview {
+  position: absolute;
+  bottom: 30px;
+  height: 100px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.posterview-bottomview-button {
+  margin-top: 20px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.posterview-bottomview-button-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.posterview-bottomview-button-item-image {
+  width: 20px;
+  height: 20px;
+}
+
+.posterview-bottomview-button-item-text {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.posterview-bottomview-button-item-image-view {
+  width: 40px;
+  height: 40px;
+  background: rgb(153, 51, 90);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

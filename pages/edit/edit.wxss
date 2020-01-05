@@ -1,0 +1,80 @@
+/* pages/edit/edit.wxss */
+.editview {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.editview-canvas {
+  position: absolute;
+  background: white;
+}
+
+.editview-top {
+  margin-top: 0px;
+  width: 100%;
+  flex-grow: 1;
+  background: #000;
+  opacity: 0.5;
+  z-index: 999;
+}
+
+.editview-mid {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.editview-left {
+  height: 100%;
+  flex-grow: 1;
+  background: #000;
+  opacity: 0.5;
+  z-index: 999;
+}
+
+.editview-mid-view {
+  height: 100%;
+  width: 250px;
+}
+
+.editview-image-view {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: calc(50% - 125px);
+}
+
+.editview-image {
+  position: absolute;
+}
+
+.editview-right {
+  height: 100%;
+  flex-grow: 1;
+  background: #000;
+  opacity: 0.5;
+}
+
+.editview-bottom {
+  width: 100%;
+  flex-grow: 1;
+  background: #000;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clipButton {
+  position: absolute;
+  bottom: 30px;
+  background: rgb(153, 51, 90);
+  color: white;
+}

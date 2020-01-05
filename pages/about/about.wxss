@@ -1,0 +1,45 @@
+/* pages/about/about.wxss */
+
+.aboutview {
+   position: fixed;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+.scrollview {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: flex-start;
+  border-top:1px solid #eee;
+}
+
+.scrollview-item {
+  height: 50px;
+  width: 100%;
+  border-bottom:1px solid #eee;
+  padding-left: 20px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.button-contact {
+  color: #fff;
+  background: rgb(153, 51, 90);
+  margin-top: 66px;
+}
+
+.button-share {
+  color: #fff;
+  background: rgb(153, 51, 90);
+  margin-top: 20px;
+}

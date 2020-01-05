@@ -1,0 +1,11 @@
+
+<template name="openSetting">
+  <block wx:if="{{isOpenSetting}}">
+    <view class="opensetting"/>
+    <view class="opensetting-dialog">
+      <text class="opensetting-title">亲，您未开启访问相册读写权限哦!</text>
+      <button class="opensetting-button" style="width:100%;" open-type="openSetting" bindopensetting="handlerOpenSetting">我要去开启</button>
+      <button class="opensetting-cancel" style="width:100%;" bindtap="clickCancelOpenSetting">取消</button>
+    </view>
+  </block>
+</template>

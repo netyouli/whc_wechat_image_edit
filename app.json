@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/poster/poster",
+    "pages/edit/edit",
+    "pages/whc/whc"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信节日图像制作",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "borderStyle": "black",
+    "selectedColor": "#99335A",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/shouye.png",
+        "iconPath": "pages/images/shouye-2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/guanyuwomen.png",
+        "iconPath": "pages/images/guanyuwomen-2.png",
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
